@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .gift-box {
+            width: 300px;
+            height: 300px;
+            background-image: url('path_to_gift_box_image.jpg');
+            background-size: cover;
+            text-align: center;
+            line-height: 300px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gift-box">
+        Click to open your present!
+    </div>
+    <script>
+        var giftBox = document.querySelector('.gift-box');
+        giftBox.addEventListener('click', function() {
+            alert("Congratulations! You won a prize!");
+        });
+    </script>
+</body>
+</html>
+
+
